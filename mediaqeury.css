@@ -1,0 +1,44 @@
+@media screen and (max-width: 1024px) {
+    nav{
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar{
+        display: none;
+    }
+    .Hamburger-Menu{
+        display: block;
+    }
+    .navbarchange{
+        min-width: 50vw;
+    }
+    .introduction{
+        margin-top: 10vh;
+    }
+    
+    #about{
+        flex-wrap: wrap;
+    }
+    .my-self{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .logo>h2>a {
+       display: none;
+    }
+
+    .contact-online{
+        min-width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 650px) {
+    .landing-img{
+        display: none;
+    }
+}
